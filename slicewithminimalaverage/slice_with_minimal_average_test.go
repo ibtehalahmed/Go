@@ -19,7 +19,7 @@ func TestSliceWithMinimalAverage(t *testing.T)  {
 		A := []int{2,2}
 		Convey("When calculate slice with minimal average", func() {
 			res := SliceWithMinimalAverage(A)
-			Convey("Result should be 1", func() {
+			Convey("Result should be 0", func() {
 				So(res, ShouldEqual, 0)
 			})
 		})
